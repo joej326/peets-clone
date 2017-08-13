@@ -1,5 +1,5 @@
 {
-  "name": "project",
+  "name": "peets-clone",
   "version": "0.1.0",
   "proxy": "http://localhost:3001/",
   "private": true,
@@ -8,6 +8,7 @@
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "express-session": "^1.15.3",
+    "jquery": "^3.2.1",
     "massive": "^3.0.0",
     "passport": "^0.3.2",
     "passport-auth0": "^0.6.0",

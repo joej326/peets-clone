@@ -1,0 +1,67 @@
+p{
+  color: white;
+}
+span{
+  transform: rotate(-180deg);
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  list-style: none;
+  padding: 0vw 0vw 0vw 0vw;
+}
+ul li{
+  padding: 0vw 1vw 0vw 1vw;
+  font-size: 1vw;
+}
+input{
+  background: #291809;
+  height: 1.3vw;
+  width: 10vw;
+}
+.peets-logo{
+  width: 9vw;
+}
+.find-peets{
+  width: 7vw;
+}
+.nav-bottom{
+  /*position: relative;*/
+}
+.taskbar-main{
+  /*width: 100%;*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.taskbar-navigation{
+  /*width: 70vw;*/
+}
+.nav-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid white 0.05vw;
+}
+.nav-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sign-in-and-cart{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1vw;
+}
+.input-and-magnify-glass{
+  position: relative;
+}
+.magnify-glass{
+  position: absolute;
+  right: 0.5vw;
+  top: 9%;
+  width: 1.5vw;
+}

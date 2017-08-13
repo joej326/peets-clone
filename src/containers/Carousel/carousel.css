@@ -1,0 +1,19 @@
+.slide-div{
+  position: relative;
+  width: 70vw;
+  height: 34.5vw;
+}
+.slide-div img{
+  width: 70vw;
+}
+.carousel-slide{
+  position: absolute;
+  left: 5vw;
+}
+
+.slide-2{
+  display: none;
+}
+.slide-3{
+  display: none;
+}
