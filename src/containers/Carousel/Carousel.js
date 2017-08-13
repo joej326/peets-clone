@@ -57,16 +57,30 @@ export default class Carousel extends Component{
       $('.slide-1').stop().fadeIn();
       $('.slide-2').stop().fadeOut();
       $('.slide-3').stop().fadeOut();
+
+      $('.circle-1').fadeTo(500,1);
+      $('.circle-2').fadeTo(500,0.5);
+      $('.circle-3').fadeTo(500,0.5);
       break;
+
       case 2:
       $('.slide-1').stop().fadeOut();
       $('.slide-2').stop().fadeIn();
       $('.slide-3').stop().fadeOut();
+
+      $('.circle-1').fadeTo(500,0.5);
+      $('.circle-2').fadeTo(500,1);
+      $('.circle-3').fadeTo(500,0.5);
       break;
+
       case 3:
       $('.slide-1').stop().fadeOut();
       $('.slide-2').stop().fadeOut();
       $('.slide-3').stop().fadeIn();
+
+      $('.circle-1').fadeTo(500,0.5);
+      $('.circle-2').fadeTo(500,0.5);
+      $('.circle-3').fadeTo(500,1);
       break;
     }
   }
@@ -76,15 +90,48 @@ export default class Carousel extends Component{
     return (
       <div className='carousel-main'>
 
-        <p onClick={()=>this.descendCarousel()} className="arrow">(---</p>
+
 
         <div className="slide-div">
-          <img src="http://i.imgur.com/3M5Q7xD.png" alt="slide" className="slide-1 carousel-slide"/>
-          <img src="http://i.imgur.com/RqKGtyg.png" alt="slide" className="slide-2 carousel-slide"/>
-          <img src="http://i.imgur.com/KPSJaxo.png" alt="slide" className="slide-3 carousel-slide"/>
+
+          <p onClick={()=>this.descendCarousel()} className="arrow left-arrow">〈</p>
+
+          <img src="http://i.imgur.com/KPSJaxo.png" alt="slide" className="slide-1 carousel-slide"/>
+          <div className="slide-words slide-1">
+            <p className='slide-title'>KENYA KANGOCHO</p>
+            <p className="slide-desc">This year’s most brilliant lot from Kenya’s famed auction,<br />
+              fresh off its arrival from the port of Mombasa.
+            </p>
+          </div>
+
+          <img src="http://i.imgur.com/3M5Q7xD.png" alt="slide" className="slide-2 carousel-slide"/>
+          <div className="slide-words slide-2">
+            <p className='slide-title'>BRAZIL PEABERRY</p>
+            <p className="slide-desc">Experience that rare peaberry intensity the Brazilian way: in a bright, <br />
+              nutty medium roast with brilliant sun-drenched sweetness.
+            </p>
+          </div>
+
+          <img src="http://i.imgur.com/RqKGtyg.png" alt="slide" className="slide-3 carousel-slide"/>
+          <div className="slide-words slide-3">
+            <p className='slide-title'>PEETNIK REWARDS</p>
+            <p className="slide-desc">Join Peetnik Rewards for free drinks, <br />
+              great perks, and offers just for you.
+            </p>
+          </div>
+
+          <p onClick={()=>this.ascendCarousel()} className="arrow right-arrow">〉</p>
+
+          <div className="three-circles">
+            <p className="slide-circle circle-1">●</p>
+            <p className="slide-circle circle-2">●</p>
+            <p className="slide-circle circle-3">●</p>
+          </div>
+
+
         </div>
 
-        <p onClick={()=>this.ascendCarousel()} className="arrow">---)</p>
+
 
       </div>
     )

@@ -10,10 +10,47 @@
   position: absolute;
   left: 5vw;
 }
-
+.arrow{
+  font-size: 5vw;
+  top: 10vw;
+  z-index: 1000;
+  position: absolute;
+}
+.left-arrow{
+  left: 6vw;
+}
+.right-arrow{
+  right: 0vw;
+}
+.slide-words{
+  position: absolute;
+  left: 7vw;
+}
+.slide-title{
+  font-size: 3vw;
+}
+.slide-desc{
+  font-size: 2vw;
+}
 .slide-2{
   display: none;
 }
 .slide-3{
   display: none;
+}
+.three-circles{
+  position: absolute;
+  bottom: 2vw;
+  left: 9vw;
+  font-size: 1vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 5vw;
+}
+.circle-2{
+  opacity: 0.5;
+}
+.circle-3{
+  opacity: 0.5;
 }
