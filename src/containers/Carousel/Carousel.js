@@ -102,6 +102,9 @@ export default class Carousel extends Component{
             <p className="slide-desc">This year’s most brilliant lot from Kenya’s famed auction,<br />
               fresh off its arrival from the port of Mombasa.
             </p>
+            <p className="slide-desc">FLAVOR NOTES: Sparkling citric acidity with ripe fruit sweetness <br />
+              and elegant floral aromatics
+            </p>
           </div>
 
           <img src="http://i.imgur.com/3M5Q7xD.png" alt="slide" className="slide-2 carousel-slide"/>

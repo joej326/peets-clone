@@ -1,3 +1,6 @@
+.carousel-main{
+  text-align: left;
+}
 .slide-div{
   position: relative;
   width: 70vw;
@@ -12,7 +15,7 @@
 }
 .arrow{
   font-size: 5vw;
-  top: 10vw;
+  top: 8vw;
   z-index: 1000;
   position: absolute;
 }
@@ -20,17 +23,18 @@
   left: 6vw;
 }
 .right-arrow{
-  right: 0vw;
+  right: -4vw;
 }
 .slide-words{
   position: absolute;
-  left: 7vw;
+  top: 9vw;
+  left: 11vw;
 }
 .slide-title{
   font-size: 3vw;
 }
 .slide-desc{
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 .slide-2{
   display: none;
