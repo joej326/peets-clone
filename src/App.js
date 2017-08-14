@@ -4,6 +4,7 @@ import './App.css';
 
 import Taskbar from './containers/Taskbar/Taskbar';
 import Carousel from './containers/Carousel/Carousel';
+import ProductContainer from './containers/ProductContainer/ProductContainer';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
       <div className="App">
         <Taskbar />
         <Carousel />
+        <ProductContainer />
       </div>
     );
   }

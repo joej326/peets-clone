@@ -1,0 +1,11 @@
+.product-row{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.product-main:nth-child(7){
+  left: 10vw;
+}
+.productcontainer-main:nth-child(9) h3{
+  margin: 1vw 0vw 1vw 5vw;
+}
