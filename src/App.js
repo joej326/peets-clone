@@ -5,6 +5,7 @@ import './App.css';
 import Taskbar from './containers/Taskbar/Taskbar';
 import Carousel from './containers/Carousel/Carousel';
 import ProductContainer from './containers/ProductContainer/ProductContainer';
+import Footer from './containers/Footer/Footer';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <Taskbar />
         <Carousel />
         <ProductContainer />
+        <Footer />
       </div>
     );
   }

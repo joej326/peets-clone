@@ -105,7 +105,7 @@ export default class ProductContainer extends Component{
               background: 'http://i.imgur.com/2KgCy51.jpg',
               type: 'Signature Blend',
               title: 'Big Bang',
-              width: '60vw',
+              width: '61vw',
               height: '25vw',
               buttonWords: 'SHOP NOW',
               buttonWidth: '10vw'
@@ -119,13 +119,40 @@ export default class ProductContainer extends Component{
               background: 'http://i.imgur.com/ExlQcJV.jpg',
               type: 'Get rewarded for your love of great coffee',
               title: 'PEETNIK REWARDS',
-              width: '90vw',
+              width: '86vw',
+              height: '13vw',
+              buttonWords: 'LEARN MORE',
+              buttonWidth: '13vw',
+              buttonMarginLeft: '3.5vw'
+            }}
+           />
+        </div>
+
+        <div className="product-row">
+          <Product
+            productData={{
+              background: 'http://i.imgur.com/ocfhzdR.jpg',
+              type: 'eGift Cards',
+              title: 'Now Available',
+              width: '36.8vw',
               height: '25vw',
               buttonWords: 'LEARN MORE',
               buttonWidth: '13vw',
               buttonMarginLeft: '3.5vw'
             }}
            />
+           <Product
+             productData={{
+               background: 'http://i.imgur.com/mkmcpkD.jpg',
+               type: 'Explore',
+               title: ['A New Cold Brew', <br />, 'Experience'],
+               width: '75vw',
+               height: '25vw',
+               buttonWords: 'FIND A PEET\'S COFFEEBAR',
+               buttonWidth: '13vw',
+               buttonMarginLeft: '3.5vw'
+             }}
+            />
         </div>
 
       </div>

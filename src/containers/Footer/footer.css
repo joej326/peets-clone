@@ -1,0 +1,28 @@
+h4{
+  color: #F3E4D1;
+  font-size: 1vw;
+  margin: 0.3vw 0vw 1vw 0vw;
+}
+.footer-main p{
+  color: #C8A578;
+  font-size: 1vw;
+  margin: 0.3vw 0vw 0.3vw 0vw;
+}
+.footer-main p:hover{
+  text-decoration: underline;
+}
+.footer-main{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: left;
+}
+.social-media-div{
+  display: flex;
+  justify-content: flex-start;;
+  align-items: center;
+}
+.social-media-div img{
+  margin: 0vw 0.5vw 0vw 0vw;
+  width: 2vw;
+}

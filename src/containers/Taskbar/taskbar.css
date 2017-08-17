@@ -18,6 +18,7 @@ ul li{
   font-size: 1vw;
 }
 input{
+  border-width: 0.2vw;
   font-size: 1vw;
   background: #291809;
   height: 1.3vw;
@@ -57,6 +58,9 @@ input{
   justify-content: space-around;
   align-items: center;
   font-size: 1vw;
+}
+.sign-in-and-cart p{
+  margin: 0vw 0.3vw 0vw 0.3vw;
 }
 .input-and-magnify-glass{
   position: relative;
